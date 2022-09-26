@@ -34,19 +34,19 @@ pipeline.fit(df.text_input_prep,df.intents)
 with open("model_chatbot.pkl", "wb") as model_file:
     pickle.dump(pipeline,model_file)
 
-def bot_response(chat,pipe,jp):
-    chat = preprocess(chat)
-    res = pipeline.predict_proba([chat])
-    max_prob = max(res[0])
-    if max_prob < .2:
-        return "Maaf kak bisa Diperjelas lagi ngga kak masalahnya ? \n\
-                saya kurang paham :(",None
-    else:
-        max_id = np.argmax(res[0])
-        pred_tag = pipe.classes_[max_id]
-        return jp.get_response(pred_tag),pred_tag
+# def bot_response(chat,pipe,jp):
+#     chat = preprocess(chat)
+#     res = pipeline.predict_proba([chat])
+#     max_prob = max(res[0])
+#     if max_prob < .2:
+#         return "Maaf kak bisa Diperjelas lagi ngga kak masalahnya ? \n\
+#                 saya kurang paham :(",None
+#     else:
+#         max_id = np.argmax(res[0])
+#         pred_tag = pipe.classes_[max_id]
+#         return jp.get_response(pred_tag),pred_tag
 
-# interaction with bot
+# # interaction with bot
 # print("admin sudah connect")
 
 # while(True):
