@@ -14,6 +14,7 @@ CREATE TABLE shoes (
     name   TEXT UNIQUE,
     brand  TEXT ,
     color  TEXT,
+    price  TEXT,
     gender VARCHAR(7),
     image TEXT
 );

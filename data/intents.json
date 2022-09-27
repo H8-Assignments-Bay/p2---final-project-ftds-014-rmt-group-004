@@ -22,15 +22,13 @@
         ]
     }, {
         "tag":
-        "bye",
+        "ambil",
         "patterns": [
-            "Dadah", "Selamat Tinggal", "Dah", "Daah",
-            "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi",
-            "Ok bye"
+            "Ambil yang ini", "Ambil", "oke", "checkout",
+            "Angkut dah", "ambil yang ini aja"
         ],
         "responses": [
-            "Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya",
-            "Semoga harimu menyenangkan!"
+            "Terimakasih Sudah Berbelanja di Get Shoe!"
         ]
     }, {
         "tag":
@@ -56,14 +54,31 @@
         "cancel",
         "patterns": [
             "Aku ga jadi beli ah!",
+            "ga jadi beli",
+            "gajadi beli",
+            "gajadi",
             "ga jadi",
             "ga jadi beli, kak",
             "maaf kak cancel aja",
             "cancel belanja",
             "cancel pembelian",
-            "tidak jadi"
+            "tidak jadi","lain kali aja"
         ],
         "responses":
         ["iya kak, tapi kalo mau ulang pembelian tinggal bilang ya ,kak !"]
+    }, {
+        "tag":
+        "kecewa",
+        "patterns": [
+            "Segini aja ?",
+            "Ah Jelek!",
+            "Barang nya ga ada ya?",
+            "yah, kecewa saya",
+            "Cupu !",
+            "Jelek nih!",
+            "sayang sekali"
+        ],
+        "responses":
+        ["iya kak, kita minta maaf"]
     }]
 }
