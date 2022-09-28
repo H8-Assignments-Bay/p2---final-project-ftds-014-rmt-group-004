@@ -79,7 +79,7 @@ This project was built using
 <!-- GETTING STARTED -->
 ## Getting Started
 
-![tutorial gif](media/demo.gif)
+![tutorial gif](https://github.com/H8-Assignments-Bay/p2---final-project-ftds-014-rmt-group-004/blob/main/media/demo.gif)
 
 
 ## Thanks to
