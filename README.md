@@ -33,9 +33,9 @@
     <strong>Project Been Created By (Github link)</strong>
     <br />
 </a>
-    <a href="https://github.com/wafadhilah"><h5>Wardatul Fadhilah</h5></a>
+    <a href="https://github.com/wafadhilah"><strong>Wardatul Fadhilah</strong></a>
     ·
-    <a href="https://github.com/ajie31"><h5>Wirawan Setio Aji</h5></a>
+    <a href="https://github.com/ajie31"><strong>Wirawan Setio Aji</strong></a>
   </p>
 </div>
 
