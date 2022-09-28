@@ -30,14 +30,12 @@
   <h3 align="center">Get Shoe Foot Measurement assistance Bot </h3>
 
   <p align="center">
-    <strong>Participants</strong>
+    <strong>Project Been Created By (Github link)</strong>
     <br />
 </a>
-    <a href="https://github.com/wafadhilah">Wardatul Fadhilah</a>
+    <a href="https://github.com/wafadhilah"><h5>Wardatul Fadhilah</h5></a>
     ·
-    <a href="https://github.com/ajie31">Wirawan Setio Aji</a>
-    ·
-    <a href="https://www.hacktiv8.com/data-science">Hacktiv8</a>
+    <a href="https://github.com/ajie31"><h5>Wirawan Setio Aji</h5></a>
   </p>
 </div>
 
