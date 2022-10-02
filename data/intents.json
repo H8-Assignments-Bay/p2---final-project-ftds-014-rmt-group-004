@@ -1,0 +1,84 @@
+{
+    "intents": [{
+        "tag":
+        "salam",
+        "patterns": [
+            "Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang",
+            "Selamat Malam", "Salam", "Ping", "P"
+        ],
+        "responses": [
+            "Halo!", "Hai", "Halo, ada yang bisa saya bantu?",
+            "Halo selamat datang", "Hai kak"
+        ]
+    }, {
+        "tag":
+        "nama",
+        "patterns": [
+            "nama kamu siapa?", "lu siapa?", "siapa sih lo?", "lu sape ?",
+            "nama lo sape dah ?", "nama?"
+        ],
+        "responses": [
+            "Kenalin, Saya bot asisten dalam pelayanan pembelian sepatu di Get Shoe kak!"
+        ]
+    }, {
+        "tag":
+        "ambil",
+        "patterns": [
+            "Ambil yang ini", "Ambil", "oke", "checkout",
+            "Angkut dah", "ambil yang ini aja"
+        ],
+        "responses": [
+            "Terimakasih Sudah Berbelanja di Get Shoe!"
+        ]
+    }, {
+        "tag":
+        "pekerjaan",
+        "patterns": [
+            "lu ngapain?", "pekerjaan kamu apa?", "lu kerja apa?",
+            "tugas kamu apa?", "tugas lo ngapain?",         "kamu bisa apa?", "apa yang bisa anda lakukan?",
+            "kamu bisa ngapain aja?", "apa kemampuan lo?",
+            "kamu bisa apaan?"
+        ],
+        "responses": [
+            "Aku bantu kakak, untuk membeli mencari sepatu dengan ukuran yang cocok buat kakak.",
+            "Tugas saya hanya membantu kakak dalam pembelian sepatu dengan ukuran yang tepat."
+        ]
+    }, {
+        "tag":
+        "beli",
+        "patterns":
+        ["mau beli sepatu nih!", "beli sepatu", "mau beli", "beli"],
+        "responses": ["Oke kak !", "Siap kak !"]
+    }, {
+        "tag":
+        "cancel",
+        "patterns": [
+            "Aku ga jadi beli ah!",
+            "ga jadi beli",
+            "gajadi beli",
+            "gajadi",
+            "ga jadi",
+            "ga jadi beli, kak",
+            "maaf kak cancel aja",
+            "cancel belanja",
+            "cancel pembelian",
+            "tidak jadi","lain kali aja"
+        ],
+        "responses":
+        ["iya kak, tapi kalo mau ulang pembelian tinggal bilang ya ,kak !"]
+    }, {
+        "tag":
+        "kecewa",
+        "patterns": [
+            "Segini aja ?",
+            "Ah Jelek!",
+            "Barang nya ga ada ya?",
+            "yah, kecewa saya",
+            "Cupu !",
+            "Jelek nih!",
+            "sayang sekali"
+        ],
+        "responses":
+        ["iya kak, kita minta maaf"]
+    }]
+}
